@@ -32,9 +32,9 @@ export default function Footer() {
               Smart hiring powered by artificial intelligence. Matching candidates and companies faster, with data instead of guesswork.
             </p>
             <div className="flex gap-4 mt-6 text-ink-muted">
-              <a href="#" aria-label="GitHub" className="hover:text-ink transition-colors"><FiGithub size={18} /></a>
-              <a href="#" aria-label="LinkedIn" className="hover:text-ink transition-colors"><FiLinkedin size={18} /></a>
-              <a href="#" aria-label="Twitter" className="hover:text-ink transition-colors"><FiTwitter size={18} /></a>
+              <a href="https://github.com/rohantarade22" aria-label="GitHub" className="hover:text-ink transition-colors"><FiGithub size={18} /></a>
+              <a href="https://www.linkedin.com/in/rohantarade22/" aria-label="LinkedIn" className="hover:text-ink transition-colors"><FiLinkedin size={18} /></a>
+              <a href="https://www.instagram.com/rohan_tarade2210/" aria-label="Twitter" className="hover:text-ink transition-colors"><FiTwitter size={18} /></a>
             </div>
           </div>
 
