@@ -6,9 +6,9 @@
 
 A full-stack AI-powered resume screening & job portal — candidates get AI resume scoring and job matching, recruiters get a real hiring pipeline, admins get full platform oversight.
 
-Built with **Django REST Framework**, **React**, **PostgreSQL**, **Celery**, and **Docker**.
+Built with **Django REST Framework**, **React**, **PostgreSQL** and **Redis**
 
-[Features](#features) · [Tech Stack](#tech-stack) · [Screenshots](#screenshots) · [Getting Started](#getting-started) · [API Docs](#api-documentation) · [Project Structure](#project-structure)
+[Features](#features) · [Tech Stack](#tech-stack) · [Getting Started](#getting-started) · [API Docs](#api-documentation) · [Project Structure](#project-structure)
 
 </div>
 
@@ -58,7 +58,7 @@ This is a portfolio/learning project demonstrating full-stack architecture: norm
 - Django 5 + Django REST Framework
 - PostgreSQL (normalized schema, UUID primary keys)
 - JWT auth (`djangorestframework-simplejwt`)
-- Celery + Redis (async resume parsing, scheduled interview reminders, transactional email)
+- Redis (async resume parsing, scheduled interview reminders, transactional email)
 - `pdfplumber` for resume text extraction
 - `drf-spectacular` for OpenAPI/Swagger docs
 - Docker + Docker Compose
@@ -73,13 +73,6 @@ This is a portfolio/learning project demonstrating full-stack architecture: norm
 - Chart.js / Recharts (analytics dashboards)
 - Axios with automatic JWT refresh interceptor
 
-## Screenshots
-
-> _Add screenshots or a demo GIF here before publishing — e.g._
->
-> `![Landing page](./docs/screenshots/landing.png)`
-> `![Candidate dashboard](./docs/screenshots/candidate-dashboard.png)`
-> `![Recruiter pipeline](./docs/screenshots/recruiter-pipeline.png)`
 
 ## Architecture
 
@@ -123,12 +116,6 @@ In a second terminal, load demo data:
 ```bash
 docker compose exec backend python manage.py seed_demo_data
 ```
-
-This creates:
-| Role | Email | Password |
-|---|---|---|
-| Admin | `admin@hiresphere.ai` | `Admin@12345` |
-| Recruiter | `recruiter@hiresphere.ai` | `Recruiter@12345` |
 
 API docs available at `http://localhost:8000/api/docs/`.
 
