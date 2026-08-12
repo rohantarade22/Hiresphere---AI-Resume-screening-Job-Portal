@@ -196,9 +196,6 @@ hiresphere-frontend/src/
 - [ ] PDF export (in addition to existing CSV export)
 - [ ] Production deployment configs (Railway/Render/Fly.io)
 
-## License
-
-This project is available for personal/portfolio use. Add a license of your choice (MIT is a common default) before publishing publicly.
 
 ## Acknowledgements
 
