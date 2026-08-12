@@ -1,0 +1,16 @@
+# Backend
+hiresphere-backend/.env
+hiresphere-backend/venv/
+hiresphere-backend/__pycache__/
+hiresphere-backend/**/*.pyc
+
+# Frontend
+hiresphere-frontend/node_modules/
+hiresphere-frontend/dist/
+hiresphere-frontend/.env
+hiresphere-frontend/.env.local
+
+# General
+*.pyc
+__pycache__/
+.DS_Store
