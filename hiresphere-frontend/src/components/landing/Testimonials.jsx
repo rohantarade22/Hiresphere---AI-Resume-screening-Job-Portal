@@ -8,12 +8,12 @@ const testimonials = [
   },
   {
     quote: "I finally understood why my resume wasn't landing interviews — the skill-gap breakdown fixed it in a weekend.",
-    name: "Marcus Webb",
+    name: "Tarade R.",
     role: "Frontend Engineer",
   },
   {
     quote: "The hiring pipeline view alone replaced three spreadsheets and a Slack channel.",
-    name: "Elena Fischer",
+    name: "Pandit G.",
     role: "Recruiter, Fintra",
   },
 ];
